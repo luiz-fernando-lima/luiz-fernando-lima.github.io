@@ -13,9 +13,9 @@ body {
 
 header {
 	background: #000;
-	padding: 5% 0% 5% 0%;
 	border-top-left-radius: 20px;
 	border-top-right-radius: 20px;
+	padding: 5% 0% 5% 0%;
 	text-align: center;
 }
 
@@ -24,6 +24,14 @@ nav {
 	padding: 0% 0% 0% 0%;
 	border-top: solid 1px;
 	border-bottom: solid 1px;
+}
+
+footer {
+	background: #000;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	padding: 25% 0% 0% 0%;
+	position: relative;
 }
 
 .navbar-nav> li> a {
@@ -42,6 +50,43 @@ nav {
 	align-items: center;
 }
 
+.capa {
+	border: solid 1px;
+	padding: 25% 0% 0% 0%;
+}
+
+.texto-conteudo-h1 {
+	color: #000;
+}
+
+.texto-conteudo-h2 {
+	text-decoration: underline;
+}
+
+.texto-conteudo-h3 {
+	color: #0080FF;
+}
+
+#sec-padroes-projeto {
+	padding: 0% 0% 0% 0%;
+}
+
+#sec-tdd {
+	padding: 0% 0% 0% 0%;
+}
+
+#sec-sql {
+	padding: 0% 0% 0% 0%;
+}
+
+#sec-java {
+	padding: 0% 0% 0% 0%;
+}
+
+#sec-seguranca {
+	padding: 0% 0% 0% 0%;
+}
+
 /* ========================= Final do Layout ========================== */
 
 /* ========================= Início da Tipografia ========================= */
@@ -50,11 +95,11 @@ h1 {
 }
 
 h2 {
-	color: #FFFFFF;
+	color: #000;
 }
 
 h3 {
-	color: #FFFFFF;
+	color: #000;
 }
 
 h4 {
